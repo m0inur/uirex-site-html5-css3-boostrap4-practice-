@@ -1,0 +1,402 @@
+.text-prime {
+  color: #4085F6;
+}
+
+.give-margin-to-this {
+  margin-left: 7.5%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+/* Navbar */
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3292a6;
+}
+
+.navbar {
+  top: 2%;
+}
+
+.navbar .btn {
+  color: #4085F6;
+  background: white;
+  border-radius: 30px;
+  padding-left: 2%;
+  padding-right: 2%;
+  white-space: nowrap;
+}
+
+.navbar .navbar-nav {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.navbar .navbar-brand {
+  margin-right: 25px;
+  margin-left: 10%;
+}
+
+/* Start of home section */
+
+.home-background-img {
+  background-image: url("../img/Background.png");
+  background-size: cover;
+  min-height: 700px;
+  height: 100%;
+  width: auto;
+}
+
+.home-text {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.App {
+  z-index: 1;
+  display: inline-block;
+}
+
+.play {
+  display: inline-block;
+  z-index: 2;
+}
+
+.home-img-phone {
+  height: 95%;
+  width: 95%;
+  margin-top: 15%;
+}
+
+/* End of home section */
+
+/* Start of about section */
+.heading {
+  font-weight: 0.5rem;
+  font-size: 2rem;
+}
+
+/* Card's Styles*/
+.G-3 {
+  margin-top: 10%;
+  margin-left: 35%;
+  height: 25%;
+  width: 25%;
+}
+
+.card-title1 {
+  font-size: 22px;
+}
+
+.card-title2 {
+  font-size: 22px;
+  color: #4085F6;
+}
+
+
+.pos {
+  margin-left: 25%;
+  margin-left: 7rem;
+  margin-bottom: 5%;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.123), 0 6px 20px 0 rgba(0, 0, 0, 0.123);
+}
+
+.img-card1 {
+  margin-top: 25px;
+
+}
+
+/* Features-main Section */
+#features {
+  background-image: url(../img/Shape_1.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+  padding-top: 40px;
+  padding-bottom: 10%;
+}
+
+
+/* End Of Features-main Section */
+
+/* Start of price section */
+#pricing {
+  background-color: #f3f3f3;
+  padding-bottom: 20px;
+}
+
+.text-red {
+  color: red;
+}
+
+.pricing-btn {
+  color: #4085F6;
+  background: white;
+
+  border-radius: 30px;
+  border-color: #4085F6;
+  border-width: 2px;
+
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 20px;
+
+  white-space: nowrap;
+  font-weight: 2px;
+}
+
+.pricing {
+  background-color: white;
+  margin-top: 5%;
+}
+
+.pricing:hover {
+  background-color: #4085F6;
+  color: #fff;
+}
+
+.pricing {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #226BE2;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+/* End of price section */
+.icon {
+  color: #4085F6;
+}
+
+/* Screenshots */
+.screenshot {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+}
+
+
+.screenshot3 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+/* Screenshots */
+
+/* Contact */
+#contact {
+  background-color: #4085F6;
+}
+
+
+.borde {
+  border: white solid 0.5px;
+  position: relative;
+
+  padding-bottom: -40%;
+  padding-top: -40%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.white {
+  color: #fff;
+  font-weight: 10px;
+}
+
+.contact-img1 {
+  position: absolute;
+  left: 40%;
+  top: -25%;
+}
+
+.contact-img2 {
+  position: absolute;
+  left: 37%;
+  top: -25%;
+}
+
+/* Contact */
+/* Contact-info */
+#contact-info {
+  background-color: #f3f3f3;
+}
+
+.conhead:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 50px;
+  margin: 0 2%;
+  border: 1.5px solid #4085F6;
+  border-radius: 5px;
+  left: 48%;
+}
+
+.bg-prime {
+  background-color: #226BE2;
+}
+
+.ci-background {
+  background-color: #fff;
+  padding-right: 20px;
+}
+
+/* Contact-info */
+
+/* end-part */
+.end-background {
+  background-color: #13253B;
+  height: auto;
+}
+
+.end-text {
+  padding-top: 15%;
+}
+
+/* 
+/* end-part */
+@media (max-width: 576px) {
+
+  /* Nav */
+  .navbar .btn {
+    margin-right: 25px;
+  }
+
+  .navbar .navbar-nav {
+    align-self: center;
+  }
+
+  .navbar .navbar-brand {
+    margin-left: 25px
+  }
+
+  /* Nav */
+
+  /* Home */
+  #home {
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    min-height: 900px;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+
+  .phone {
+    left: 20%;
+    margin-bottom: 0px;
+  }
+
+  .home-text {
+    margin-top: 1px;
+  }
+
+  .play {
+    margin-top: 10px;
+  }
+
+  /* Home */
+  /* About */
+  #about {
+    margin-top: 30px;
+  }
+
+  .pos {
+    margin-left: 10%;
+  }
+
+  /* About */
+  /* Features */
+  #features {
+    background-image: url(../img/Shape_1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding-top: 40px;
+    padding-bottom: 80%;
+
+  }
+
+  .features-phone {
+    margin-left: 45px;
+  }
+
+  /* Features */
+  /* Pricing */
+  .pricing {
+    margin-left: 45px;
+  }
+
+  /* Pricing */
+
+  /* Screenshots */
+  .screenshots {
+    margin-left: 5px;
+  }
+
+  .screenshot-arrows {
+    margin-top: 20px;
+  }
+
+  /* Screenshots */
+
+  /* Contact */
+  #contact {
+    margin-top: 20px;
+  }
+
+  .con-gomez {
+    margin-top: 50px;
+    margin-left: 2px;
+  }
+
+  .con-rita {
+    margin-top: 100px;
+    margin-left: 5%;
+  }
+
+  .contact-img1 {
+    position: absolute;
+    left: 35%;
+    top: -20%;
+  }
+
+  .contact-img2 {
+    position: absolute;
+    left: 35%;
+    top: -20%;
+  }
+
+  /* Contact */
+  /*  contact-info*/
+  .contact-info-form {
+    margin-top: 50px;
+  }
+
+  /*  contact-info */
+  /* End Part */
+  .end-message {
+    text-align: center;
+  }
+
+  .end-text {
+    margin-top: 25px;
+
+  }
+
+  .end-icons {
+    margin-bottom: 60px;
+  }
+}
